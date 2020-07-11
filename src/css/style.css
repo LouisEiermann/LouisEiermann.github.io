@@ -1,0 +1,35 @@
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+  background: url(../img/schanze.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+:focus {
+  outline: none;
+  box-shadow: 2px 2px 20px #FFF;
+}
+
+.container {
+  text-align: center;
+  margin-top: 250px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+button {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #2a9e33;
+  background-color: #00aae7;
+  border: 2px solid #00aae7;
+  padding: 2rem;
+  border-radius: 10px;
+}
